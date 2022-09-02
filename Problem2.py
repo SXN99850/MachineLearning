@@ -8,7 +8,7 @@ dog.update({
     'legs': '4',
     'age': '11'
 })
-print("dog dictionary -", dog)
+print("dog dictionary \n", dog)
 print("dog is of", type(dog), "type")
 
 # 3.create student dictionary with given keys
@@ -23,11 +23,12 @@ student = {
     'city': 'Hyderabad',
     'address': 'Happy Homes, Apt 503, Hyd - 500076'
 }
+print("Student dictionary \n", student)
 # 4.length of student dictionary
 print("Length of student dictionary is", len(student))
 
 # 5.Get the value of skills and check the data type
-print("skills of", student['first_name'], "are ", student['skills'])
+print("skills value of", student['first_name'], "are ", student['skills'])
 print("datatype of 'skills' in student dictionary is", type(student['skills']))
 
 # 6.Modifying the skills key in student dictionary
